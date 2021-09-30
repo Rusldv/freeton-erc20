@@ -1,0 +1,78 @@
+{
+	"ABI version": 2,
+	"header": ["time", "expire"],
+	"functions": [
+		{
+			"name": "constructor",
+			"inputs": [
+				{"name":"_value","type":"uint256"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "bue",
+			"inputs": [
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "balanceOf",
+			"inputs": [
+				{"name":"_owner","type":"address"}
+			],
+			"outputs": [
+				{"name":"value0","type":"uint256"}
+			]
+		},
+		{
+			"name": "transfer",
+			"inputs": [
+				{"name":"_to","type":"address"},
+				{"name":"_value","type":"uint256"}
+			],
+			"outputs": [
+				{"name":"value0","type":"bool"}
+			]
+		},
+		{
+			"name": "totalSupply",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"value0","type":"uint256"}
+			]
+		},
+		{
+			"name": "totalSupply",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"totalSupply","type":"uint256"}
+			]
+		},
+		{
+			"name": "reserve",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"reserve","type":"uint256"}
+			]
+		}
+	],
+	"data": [
+	],
+	"events": [
+		{
+			"name": "Transfer",
+			"inputs": [
+				{"name":"from","type":"address"},
+				{"name":"to","type":"address"},
+				{"name":"value","type":"uint256"}
+			],
+			"outputs": [
+			]
+		}
+	]
+}
